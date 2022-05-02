@@ -1,0 +1,90 @@
+<abbr>
+
+The<abbr title="People's Republic of China">PRC</abbr> was founded in 1949
+<abbr>標籤指示簡稱或縮寫，比如"WWW"或“NATO"
+通過對縮寫進行標記，能夠為瀏覽器、拼寫檢查和搜尋引擎提供有用信息
+<abbr>標籤最初是在HTML 4.0中引入，表示所包含的本文是一個更長的單詞或短語的縮寫模式
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<address>
+
+<address>
+Written by<a href="maito:webmaster@example.com">Donald Duck</a>.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564,Disneyland<br>
+USA
+</address>
+<address>標籤定義文檔或文章的作者/擁有者的聯繫信息
+如果<address>元素位於<body>元素內，則表示文檔聯繫信息
+如果<address>元素位於<article>元素內，則表示文章的聯繫信息
+<address>元素中的文本通常呈現斜體。大多數瀏覽器會在address元前後添加折行
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<area>帶有可點擊區域的圖像映射
+
+<img src="planets.jpg" border="0" usemap="#planetmap" alt="Planets"/>
+<map name="planetmap" id="planetmap">
+  <area shape="circle" coords="180,139,14" href="venus.html" alt="Venus" />
+  <area shape="circle" coords="128,161,10" href="mercur.html" alt"Mercury" />
+  <area shape="rect" coords="0,0,110,260" href="sun.html" alt="Sun" />
+</map>
+<area>標籤定義圖像映射中的區域
+area元素總是嵌套在<map>標籤中
+  <img>標籤中得usemap屬性與map元素name屬性相關聯，創建圖像映射之間的聯繫
+在HTML中，<area>沒有結束標籤
+  <img>中的usemap屬性可引用<map>中的id或name屬性（由瀏覽器決定)，
+  所以需要同時向<map>添加id和name兩個屬性
+必要的屬性
+alt<text>:定義此區域的替換本文
+可選的屬性
+coords<座標值>:定義可點擊區域的座標
+href<URL>:定義此區域的目標URL
+nohref<nohref>:從圖像映射排除某個區域
+shape<default,rect,circ,poly>:定義區域的形狀
+target<_blank,_parent,_self,_top>:規定在何處打開href屬性指定的目標URL
+  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<article>
+
+<article>
+  <h1>Intermet Explorer 9</h1>
+  <p>Windows Internet Explorer 9（簡稱IE9）於2011年3月14日發布</p>
+</article>
+
+<article>標籤規定獨立的自包含內容
+一篇文章應有其自身的意義，應該有可能獨立於站點的其餘部分對其進行分發
+  
+ ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+ <aside>
+ 
+ <p>Me and family visited The Epcot center this summer.</p>
+ <aside>
+ <h4>Epcot Center</h4>
+ The Epcot Center is a theme park in Disney World,Florida.
+ </aside>
+ 
+ <aside>標籤定義其所處內容之外的內容
+ aside的內容應該與附近的內容相關
+ 
+ ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<audio>
+
+<audio> src="someaudio.wav">
+您的瀏覽器不支援audio標籤
+</audio>
+
+<audio>標籤定義聲音，比如音樂或其他音頻
+  可以在開始標籤和結束標籤之間放置本文內容，這樣老舊的瀏覽器可以顯示不支援信息
+
+屬性
+autoplay<autoplay>:如果出現該屬性，則音頻在就緒後馬上播放
+controls<controls>:如果出現該屬性，則向用戶顯示控件，比如播放按鈕
+loop<loop>:如果出現該屬性，則每當音頻結束時重新開始播放
+muted<muted>:規定視頻輸出應該被靜音
+preload<preload>:如果出現該屬性，則音頻在頁面加載時進行加載，並預備播放
+                 如果使用"autoplay"，則忽略該屬性
+src<url>:要播放的音頻的URL
+
+
+
