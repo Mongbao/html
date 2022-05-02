@@ -1,0 +1,78 @@
+<b>
+
+<p>這是普通本文-<b>這是粗體本文</b>。</p>
+
+<b>標籤規定粗體本文
+  也可以透過CSS"font-weight"屬性來設置粗體本文
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<base>
+
+<head>
+<base href="http://www.w3school.com.cn/i/"/>
+<base target="_blank" />
+</head>
+<body>
+<img src="en_smile.gif" />
+<a href="http://www.w3school.com.cn">W3School</a>
+</body>
+
+<base>標籤為頁面上的所有連結規定默認地址或默認目標
+通常情況下，瀏覽器會從當前文檔的URL中提取相應的元素來填寫相對URL中的空白
+使用<base>標籤可以改變這一點。瀏覽器隨後將不會在使用當前文檔的URL，
+而使用指定的基本URL來解析所有的相對URL。這其中包括<a>,<img>,<link>,<form>標籤中的URL
+
+必要的屬性
+href<URL>:規定頁面中所有相對連接的基準URL
+可選的屬性
+target<_blank,_parent,_self,_top,framename>:在何處打開頁面中所有連結
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<basefont>
+
+<head>
+<basefont color="red" size="5" />
+</head>
+<body>
+<h1>This is a header</h1>
+<p>This is a paragraph</p>
+</body>
+
+<basefont>標籤定義基準字體。該標籤可以為文檔中所本文定義默認字體顏色、字體大小和字體系列
+
+可選的屬性（不贊成使用。請使用樣式取代）
+color<rgb<x,x,x>,#xxxxxx,colorname>:規定文檔中的默認本文顏色
+face<font_family>:規定文檔中的默認字體
+size<number>:規定文檔中的默認字體大小
+標準屬性
+id,class,title,style,dir,lang,xml:lang
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<bdi>把客戶從周圍的本文方向設置中隔離出來
+
+<ul>
+<li>Username<bdi>Bill</bdi>:80 point</li>
+<li>Username<bdi>Steve</bdi>:78 point<li>
+</ul>
+
+bdi指的是bidi隔離
+<bdi>標籤允許設置一段本文，使其脫離父元素的本文方向設置
+在發布用戶評論或其他無法完全控制的內容時，該標籤很有用
+
+屬性
+dir<ltr,rtl,auto>:可選。規定<bdi>元素內的本文的本文方向。默認值:auto
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<bdo>
+
+<bdo dir="rtl">Here is some text</bdo>
+
+bdo元素可覆蓋默認本文方向
+
+可選的屬性
+dir<ltr,rtl>:定義文字的方向
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<big>
+
+<big>標籤呈現大號字體效果
