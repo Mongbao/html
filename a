@@ -1,0 +1,12 @@
+<a>標籤定義超連結，用於從一個頁面連接到另一個頁面
+<a>元素最重要的屬性是href屬性，它指示連接的目標
+
+download<filename>:規定下載的超連結目標
+href<URL>:規定連結指向的頁面的URL
+hreflang<language_code>:規定被連結文檔的語言
+media<media_query>:規定被連結文檔是為何種媒介/設備優化的
+rel<text>:規定當前文檔與被連結文檔之間的關係
+target<_blank,_parent,_self,_top,framename>:規定在何處打開連結文檔
+type<MIME type>:規定被連接文檔的MIME類型
+
+https://www.w3school.com.cn/tags/tag_a.asp
