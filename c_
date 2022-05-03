@@ -1,3 +1,138 @@
+<canvas>
+
+<canvas id="myCanvas"></canvas>
+<script type="text/javascript">
+  var canvas=document.getElementById('myCanvas');
+  var ctx=canvas.getContext('2d');
+  ctx.fillStyle='#FF0000';
+  ctx.fillRect(0,0,80,100);
+</script>
+
+用法和定義
+<canvas>標籤定義圖形，比如圖表和其他圖像
+<canvas>標籤只是圖形容器，必需使用腳本來繪製圖形
+
+屬性
+height<pixels>:設置canvas高度
+width<pixels>:設置canvas的寬度
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<caption>
+
+<table border="1">
+  <caption>Monthly saving</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
+定義和屬性
+caption元素定義表格標籤
+cation標籤必需緊隨table標籤之後，只能對每個表格定義一個標籤。通常這個標籤被居中於表格之上
+
+可選的屬性(不贊成使用。請使用樣式取代)
+align<left,right,top,bottom>:規定標籤的對齊方式
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<center>
+定義和用法
+對其所包刮的本文進行水平居中
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<cite>
+
+定義和用法
+<cite>標籤通常表示它所包含的本文對某個參考文獻引用，比如書籍或者雜誌的標題
+引用的本文將以斜體顯示
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<col>
+<table width="100%" border="1">
+  <col align="left" />
+  <col align="left" />
+  <col align="right" />
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>123456</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+定義和用法
+<col>標籤為表格中一個或多個列定義的屬性值
+如需對全部列應用樣式，<col>標籤很有用，這樣就不需要對各個單元和各行重複應用樣式了
+只能在table或colgroup元素中使用<col>標籤
+
+可選的屬性
+align<right,left,center,justify,char>:規定與col元素相關的內容的水平對齊方式
+char<character>:規定根據哪個字符來對齊與col元素相關的內容
+charoff<number>:規定第一個對齊字符的偏移量
+span<number>:規定col元素應該橫跨的列數
+valign<top,middle,bottorn,baseline>:定義與col元素相關的內容的垂直對齊方式
+width<pixels,%,relative_length>:規定col元素寬度
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<colgroup>
+
+<table width="100%" border="1">
+  <colgroup span="2" align="left"></colgroup>
+  <colgroup align="right" style="color:#0000FF;"></colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>123456</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+定義和用法
+<colgroup>標籤用於對表格中的列進行組合，以便對其進行優化
+如需對全部列應用樣式，<colgroup>標籤很有用，這樣很有用，這樣就不需要對各個單元和各行重複應用樣式了
+<colgroup>標籤只能在table元素中使用
+
+可選的屬性
+align<right,left,center,justify,char>:定義在列組合中內容的水平方式
+char<character>:規定根據哪個字符來對齊列組合中的內容
+charoff<number>:規定第一個對齊字符的偏移量
+span<number>:規定列組應該橫跨的列數
+valign<top,middle,bottom,baseline>:定義在列組中內容的垂直對齊方式
+width<pixels,%,relative_length>:規定列組合的寬度
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<command>
+
+<menu>
+<command onclick="alert('Hello World')>
+Click Me!</command>
+</menu>
+
+定義和用法
+command元素表示用戶能夠調用的命令
+<command>標籤可以定義命令按鈕，比如單選按鈕，複選框或按鈕
+只有當command元素位於menu元素內時，該元素才是可見的。否則不會顯示這個元素，但是可以用它規定鍵盤快捷鍵
+
+屬性
+checked<checked>:定義是否被選選中。僅用於radio或checkbox類型
+disabled<disabled>:定義command是否可用
+icon<url>:定義作為command來顯示的圖像url
+label<text>:為command定義可見的label
+radiogroup<groupname>:定義command所屬的祖名。僅在類型為radio時使用
+type<checkbox,command,radio>:定義該command的類型。默認是"command"
 
 
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 https://www.w3school.com.cn/tags/tag_canvas.asp
