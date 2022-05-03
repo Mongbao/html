@@ -80,4 +80,65 @@ dir<ltr,rtl>:定義文字的方向
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 <blockquote>
 
+定義和用法
+<blockquote>標籤定義塊引用
+<blockquote>與</blockquote>之間的所有文本都會從常規文本中分離出來，經常會在左、右兩邊進行縮進(增加外邊距)，
+而且有時會使用斜體。就是說，區塊擁有他們自己的空間
+
+可選的屬性
+cite<URL>:規定引用的來源
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<body>一個簡單的HTML文檔，帶有最基本的必需元素
+
+定義和用法
+body元素定義文檔的主體
+body元素包含文檔的所有內容(比如本文、超連結、圖像、表格和列表等等。)
+
+可選的屬性(不贊成使用。請是用樣式取代)
+alink<rgb(x,x,x),#xxxxxx,colorname>:規定文檔中活動連結
+background<URL>:規定文檔的背景圖像
+bgcolor<rgb(x,x,x),#xxxxxx,colorname>:規定文檔的背景顏色
+link<rgb(x,x,x),#xxxxxx,colorname>:規定文檔中未訪問連結的默認顏色
+text<rgb(x,x,x),#xxxxxx,colorname>:規定文檔中所有文本的顏色
+vlink<rgb(x,x,x),#xxxxxx,colorname>:規定文檔中已被訪問連結的顏色
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<br>換行
+
+<br>可插入換行符
+<br>標籤是空標籤，沒有結束標籤
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<button>按鈕
+
+<button type="button">Click Me!</button>
+
+定義和用法
+<button>標籤定義一個按鈕
+在button元素內部，可以放置內容，比如本文或圖案。這是該元素與使用input元素創建的按鈕之間的不同之處
+<button>控件與<input type="button">相比，提供了更強的功能和更豐富的內容。<button>與</button>標籤
+之間的所有內容都是按鈕的內容，其中包括任何可接受的本文內容，比如本文或多媒體內容。
+唯一禁止使用的元素是圖像映射。因為他對鼠標敏感的動作會干擾表單按鈕的行為
+請始終未按鈕規定type屬性。Internet Explorer的默認類型是"button"，而其他瀏覽器中的默認值是"submit"
+
+屬性
+autofocus<autofocus>:規定當頁面加載時按鈕應當自動的獲得焦點
+disabled<disabled>:規定應該禁用該按鈕
+form<form_name>:規定按鈕屬於一個或多個表單
+formaction<url>:覆蓋form元素的action屬性
+                註釋:該屬性與type="submit"配合使用
+formenctype<見註釋>:覆蓋form元素的method屬性
+                    註釋:該屬性與type="submit"配合屬性
+formmethod<get,post>:覆蓋form元素的method屬性
+                     註釋:該屬性與type="submit"配合使用
+formnovalidate<formnovalidate>:覆蓋form元素的novalidate屬性
+                               註釋:該屬性與type="submit"配合使用
+formtarget<_blank,_self,_parent,_top,framename>:覆蓋form元素的target屬性
+                                                註釋:該屬性與type="submit"配合使用
+name<button_name>:規定按鈕的名稱
+type<button,reset,submit>:規定按鈕的類型
+value<text>:規定按鈕的初始值。可由腳本進行修改
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 https://www.w3school.com.cn/tags/tag_blockquote.asp
